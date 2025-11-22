@@ -34,6 +34,16 @@ def get_data():
     """Load and cache all data."""
     return load_all_data()
 
+@st.cache_data
+def get_all_student_summaries():
+    """Load and cache all student summaries."""
+    students_df, _, _, _ = get_data()
+    summaries = []
+    for _, student in students_df.iterrows():
+        student_id = student['student_id']
+        summaries.append(get_student_summary(student_id))
+    return summaries
+
 students_df, grades_df, attendance_df, behavior_df = get_data()
 
 # Sidebar navigation
@@ -59,13 +69,8 @@ if page == "Dashboard":
     st.title("📊 Teacher Assistant Dashboard")
     st.markdown("### Student Performance Overview")
     
-    # Calculate summary statistics for all students
-    summary_data = []
-    for _, student in students_df.iterrows():
-        student_id = student['student_id']
-        summary = get_student_summary(student_id)
-        summary_data.append(summary)
-    
+    # Get cached summary statistics for all students
+    summary_data = get_all_student_summaries()
     summary_df = pd.DataFrame(summary_data)
     
     # Display key metrics
@@ -139,7 +144,11 @@ elif page == "Student Records":
     selected_student_name = st.selectbox("Select a student", student_names)
     
     # Get student details
-    student = students_df[students_df['name'] == selected_student_name].iloc[0]
+    student_rows = students_df[students_df['name'] == selected_student_name]
+    if len(student_rows) == 0:
+        st.error(f"Student '{selected_student_name}' not found")
+        st.stop()
+    student = student_rows.iloc[0]
     student_id = student['student_id']
     
     # Display student information
@@ -227,7 +236,11 @@ elif page == "Email Generator":
     selected_student_name = st.selectbox("Select a student", student_names)
     
     # Get student details
-    student = students_df[students_df['name'] == selected_student_name].iloc[0]
+    student_rows = students_df[students_df['name'] == selected_student_name]
+    if len(student_rows) == 0:
+        st.error(f"Student '{selected_student_name}' not found")
+        st.stop()
+    student = student_rows.iloc[0]
     student_id = student['student_id']
     summary = get_student_summary(student_id)
     
@@ -287,18 +300,17 @@ elif page == "Batch Email Generation":
     st.title("📬 Batch Email Generation")
     st.markdown("Generate emails for all students who need attention.")
     
-    # Calculate which students need emails
+    # Calculate which students need emails using cached summaries
     students_needing_attention = []
     email_gen = st.session_state.email_generator
     
-    for _, student in students_df.iterrows():
-        student_id = student['student_id']
-        summary = get_student_summary(student_id)
+    all_summaries = get_all_student_summaries()
+    for summary in all_summaries:
         should_send = email_gen.should_send_email(summary)
         
         if should_send['to_parent'] or should_send['to_student'] or should_send['to_admin']:
             students_needing_attention.append({
-                'student_id': student_id,
+                'student_id': summary['student_id'],
                 'name': summary['name'],
                 'average_grade': summary['average_grade'],
                 'attendance_rate': summary['attendance_rate'],

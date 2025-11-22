@@ -84,7 +84,10 @@ def get_student_summary(student_id: int) -> Dict:
     """Get a comprehensive summary for a student."""
     students_df, grades_df, attendance_df, behavior_df = load_all_data()
     
-    student = students_df[students_df['student_id'] == student_id].iloc[0]
+    student_rows = students_df[students_df['student_id'] == student_id]
+    if len(student_rows) == 0:
+        raise ValueError(f"Student ID {student_id} not found")
+    student = student_rows.iloc[0]
     
     return {
         'student_id': student_id,

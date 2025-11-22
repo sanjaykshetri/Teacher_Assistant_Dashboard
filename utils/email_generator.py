@@ -15,6 +15,7 @@ class EmailGenerator:
     LOW_ATTENDANCE_THRESHOLD = 80.0
     CRITICAL_ATTENDANCE_THRESHOLD = 70.0
     MULTIPLE_INCIDENTS_THRESHOLD = 2
+    ADMIN_INCIDENTS_THRESHOLD = 3
     
     def __init__(self, teacher_name: str = "Mr./Ms. Teacher", teacher_email: str = "teacher@school.edu"):
         self.teacher_name = teacher_name
@@ -40,7 +41,7 @@ class EmailGenerator:
             'to_admin': (
                 grade < self.CRITICAL_GRADE_THRESHOLD or 
                 attendance < self.CRITICAL_ATTENDANCE_THRESHOLD or 
-                negative_incidents >= 3
+                negative_incidents >= self.ADMIN_INCIDENTS_THRESHOLD
             )
         }
     
@@ -174,7 +175,7 @@ class EmailGenerator:
             body += f"• Academic performance is critically low and may result in course failure\n"
         if attendance < self.CRITICAL_ATTENDANCE_THRESHOLD:
             body += f"• Attendance is critically low and impacting learning\n"
-        if negative_incidents >= 3:
+        if negative_incidents >= self.ADMIN_INCIDENTS_THRESHOLD:
             body += f"• Multiple behavioral incidents requiring administrative intervention\n"
         
         body += f"\nI have contacted the parents and student regarding these concerns. However, I believe administrative "
