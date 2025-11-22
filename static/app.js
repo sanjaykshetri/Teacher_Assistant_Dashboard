@@ -338,7 +338,7 @@ async function checkAlerts() {
 }
 
 // Tab switching
-function showTab(tabName) {
+function showTab(tabName, event) {
     // Hide all tabs
     document.querySelectorAll('.tab-content').forEach(tab => {
         tab.classList.remove('active');
@@ -353,7 +353,9 @@ function showTab(tabName) {
     document.getElementById(tabName + 'Tab').classList.add('active');
     
     // Add active class to clicked button
-    event.target.classList.add('active');
+    if (event) {
+        event.target.classList.add('active');
+    }
 }
 
 // Modal functions
