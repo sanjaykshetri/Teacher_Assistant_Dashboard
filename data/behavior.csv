@@ -1,0 +1,11 @@
+student_id,date,incident_type,severity,description
+1,2024-01-20,positive,low,Helped another student with assignment
+3,2024-01-16,disruption,medium,Talking during lecture
+3,2024-01-18,disruption,medium,Using phone in class
+7,2024-01-15,disruption,high,Disrespectful to teacher
+7,2024-01-17,disruption,medium,Late to class without excuse
+7,2024-01-19,disruption,high,Disruptive behavior in class
+2,2024-01-18,positive,low,Excellent class participation
+6,2024-01-19,positive,medium,Led study group session
+10,2024-01-17,positive,low,Turned in all work on time
+5,2024-01-18,disruption,low,Forgot materials
