@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Assistant Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 Teacher Assistant Dashboard</h1>
+            <p class="subtitle">Centralized Student Data Management & Alert System</p>
+        </header>
+
+        <div class="summary-cards" id="summaryCards">
+            <div class="card">
+                <h3>Total Students</h3>
+                <div class="stat" id="totalStudents">0</div>
+            </div>
+            <div class="card">
+                <h3>Active Alerts</h3>
+                <div class="stat" id="totalAlerts">0</div>
+            </div>
+            <div class="card alert-high">
+                <h3>High Priority</h3>
+                <div class="stat" id="highAlerts">0</div>
+            </div>
+            <div class="card alert-medium">
+                <h3>Medium Priority</h3>
+                <div class="stat" id="mediumAlerts">0</div>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button onclick="showAddStudentModal()" class="btn btn-primary">Add Student</button>
+            <button onclick="checkAlerts()" class="btn btn-secondary">Run Alert Check</button>
+            <button onclick="loadDashboard()" class="btn btn-secondary">Refresh Dashboard</button>
+        </div>
+
+        <div class="tabs">
+            <button class="tab-btn active" onclick="showTab('students')">Students</button>
+            <button class="tab-btn" onclick="showTab('alerts')">Recent Alerts</button>
+            <button class="tab-btn" onclick="showTab('attendance')">Attendance</button>
+            <button class="tab-btn" onclick="showTab('grades')">Grades</button>
+            <button class="tab-btn" onclick="showTab('behaviors')">Behaviors</button>
+        </div>
+
+        <div id="studentsTab" class="tab-content active">
+            <h2>Students</h2>
+            <div class="table-container">
+                <table id="studentsTable">
+                    <thead>
+                        <tr>
+                            <th>Student ID</th>
+                            <th>Name</th>
+                            <th>Grade Level</th>
+                            <th>Special Ed</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="studentsTableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="alertsTab" class="tab-content">
+            <h2>Recent Alerts</h2>
+            <div class="table-container">
+                <table id="alertsTable">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Student</th>
+                            <th>Type</th>
+                            <th>Severity</th>
+                            <th>Message</th>
+                        </tr>
+                    </thead>
+                    <tbody id="alertsTableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="attendanceTab" class="tab-content">
+            <h2>Recent Attendance</h2>
+            <div class="table-container">
+                <table id="attendanceTable">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Student</th>
+                            <th>Status</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody id="attendanceTableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="gradesTab" class="tab-content">
+            <h2>Recent Grades</h2>
+            <div class="table-container">
+                <table id="gradesTable">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Student</th>
+                            <th>Subject</th>
+                            <th>Assignment</th>
+                            <th>Score</th>
+                            <th>Percentage</th>
+                        </tr>
+                    </thead>
+                    <tbody id="gradesTableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="behaviorsTab" class="tab-content">
+            <h2>Behavior Incidents</h2>
+            <div class="table-container">
+                <table id="behaviorsTable">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Student</th>
+                            <th>Incident Type</th>
+                            <th>Severity</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody id="behaviorsTableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Student Modal -->
+    <div id="addStudentModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('addStudentModal')">&times;</span>
+            <h2>Add New Student</h2>
+            <form id="addStudentForm" onsubmit="addStudent(event)">
+                <div class="form-group">
+                    <label>First Name:</label>
+                    <input type="text" name="first_name" required>
+                </div>
+                <div class="form-group">
+                    <label>Last Name:</label>
+                    <input type="text" name="last_name" required>
+                </div>
+                <div class="form-group">
+                    <label>Student ID:</label>
+                    <input type="text" name="student_id" required>
+                </div>
+                <div class="form-group">
+                    <label>Grade Level:</label>
+                    <input type="number" name="grade_level" min="1" max="12">
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="special_ed">
+                        Special Education
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>Accommodations:</label>
+                    <textarea name="accommodations" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Add Student</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Student Detail Modal -->
+    <div id="studentDetailModal" class="modal">
+        <div class="modal-content large">
+            <span class="close" onclick="closeModal('studentDetailModal')">&times;</span>
+            <div id="studentDetailContent">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
