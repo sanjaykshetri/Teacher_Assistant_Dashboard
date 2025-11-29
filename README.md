@@ -58,7 +58,9 @@ streamlit run app.py
    - **Email Generator**: Create individual student emails
    - **Batch Email Generation**: Generate multiple emails at once
 
-## Data Structure
+## Data Management
+
+### 📊 Data Structure
 
 The application uses CSV files stored in the `data/` directory:
 
@@ -66,6 +68,46 @@ The application uses CSV files stored in the `data/` directory:
 - **grades.csv**: Assignment scores and grades
 - **attendance.csv**: Daily attendance records
 - **behavior.csv**: Behavior incidents (positive and negative)
+
+### 📝 Excel Templates
+
+Pre-formatted Excel templates are available in `data/templates/` for easier data entry:
+- Easy-to-use spreadsheet interface
+- Formatted headers and helpful instructions
+- Simply fill in data and convert to CSV
+
+**Quick workflow:**
+```bash
+# 1. Edit Excel template (e.g., data/templates/grades_template.xlsx)
+# 2. Convert to CSV
+python utils/excel_to_csv.py
+# 3. Validate data
+python utils/data_validator.py
+# 4. Refresh dashboard
+```
+
+### 🔒 Data Privacy & Security
+
+**IMPORTANT:** Student data is sensitive and protected by `.gitignore`:
+- Use `data/real/` folder for actual student data (excluded from Git)
+- Current `data/` folder contains sample data only
+- Consider making your repository private for added security
+
+See **[DATA_MANAGEMENT.md](DATA_MANAGEMENT.md)** for complete instructions.
+
+### ✅ Data Validation
+
+Validate your data files before using the dashboard:
+```bash
+python utils/data_validator.py
+```
+
+This checks for:
+- Invalid email formats
+- Missing required fields
+- Duplicate entries
+- Incorrect date formats
+- Invalid student IDs
 
 ## Customization
 

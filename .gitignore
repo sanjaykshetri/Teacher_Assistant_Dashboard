@@ -36,9 +36,30 @@ ENV/
 # Streamlit
 .streamlit/secrets.toml
 
-# Data
+# Data Protection - Keep real student data private!
+data/real/
+data/*_real.csv
+data/*_actual.csv
+*.xlsx
+!data/templates/*.xlsx
 *.csv.backup
 *.xlsx.backup
+*.bak
+*.backup
+*_backup.*
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
 
 # OS
 .DS_Store

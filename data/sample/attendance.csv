@@ -1,0 +1,51 @@
+student_id,date,status,notes
+1,2024-01-15,present,
+1,2024-01-16,present,
+1,2024-01-17,present,
+1,2024-01-18,present,
+1,2024-01-19,absent,Sick
+2,2024-01-15,present,
+2,2024-01-16,present,
+2,2024-01-17,present,
+2,2024-01-18,present,
+2,2024-01-19,present,
+3,2024-01-15,present,
+3,2024-01-16,absent,Unexcused
+3,2024-01-17,absent,Unexcused
+3,2024-01-18,present,
+3,2024-01-19,tardy,Late 15 minutes
+4,2024-01-15,present,
+4,2024-01-16,present,
+4,2024-01-17,present,
+4,2024-01-18,present,
+4,2024-01-19,present,
+5,2024-01-15,present,
+5,2024-01-16,present,
+5,2024-01-17,tardy,Late 10 minutes
+5,2024-01-18,present,
+5,2024-01-19,present,
+6,2024-01-15,present,
+6,2024-01-16,present,
+6,2024-01-17,present,
+6,2024-01-18,present,
+6,2024-01-19,present,
+7,2024-01-15,absent,Unexcused
+7,2024-01-16,absent,Unexcused
+7,2024-01-17,present,
+7,2024-01-18,absent,Unexcused
+7,2024-01-19,tardy,Late 20 minutes
+8,2024-01-15,present,
+8,2024-01-16,present,
+8,2024-01-17,present,
+8,2024-01-18,present,
+8,2024-01-19,present,
+9,2024-01-15,present,
+9,2024-01-16,tardy,Late 5 minutes
+9,2024-01-17,present,
+9,2024-01-18,present,
+9,2024-01-19,present,
+10,2024-01-15,present,
+10,2024-01-16,present,
+10,2024-01-17,present,
+10,2024-01-18,present,
+10,2024-01-19,present,
