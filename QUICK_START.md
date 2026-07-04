@@ -65,6 +65,16 @@ code data/attendance.csv
 python utils/data_validator.py
 ```
 
+For simulated normalized data:
+```bash
+python utils/data_validator.py --data-source simulated
+```
+
+For both legacy and simulated datasets:
+```bash
+python utils/data_validator.py --data-source both
+```
+
 This checks for:
 - Invalid emails
 - Missing required fields
@@ -111,6 +121,12 @@ cp your_grades.csv data/real/grades.csv
 ```bash
 # Validate your data
 python utils/data_validator.py
+
+# Validate simulated normalized data
+python utils/data_validator.py --data-source simulated
+
+# Validate both data sources
+python utils/data_validator.py --data-source both
 
 # Start the dashboard
 streamlit run app.py

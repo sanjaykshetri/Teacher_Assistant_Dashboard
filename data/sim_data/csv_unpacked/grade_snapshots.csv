@@ -1,0 +1,161 @@
+snapshot_id,student_id,course_id,week_number,current_grade_pct,assignment_avg_pct,assessment_avg_pct,missing_assignments,late_assignments,absences,tardies,behavior_incidents,risk_band,recommended_next_step
+GS-STU2026001-W09,STU2026001,ALG1-A,9,70.5,64.2,75.7,2,4,2,0,0,Medium,Check-in and missing-work plan
+GS-STU2026002-W09,STU2026002,ALG1-A,9,52.5,45.5,58.3,4,2,4,2,0,High,Parent contact + intervention plan
+GS-STU2026003-W09,STU2026003,ALG1-A,9,43.1,36.9,48.1,5,2,5,1,1,High,Parent contact + intervention plan
+GS-STU2026004-W09,STU2026004,ALG1-A,9,81.8,78.7,84.4,2,3,2,0,0,Low,Continue monitoring
+GS-STU2026005-W09,STU2026005,ALG1-A,9,70.4,60.1,78.9,4,2,3,4,0,Medium,Check-in and missing-work plan
+GS-STU2026006-W09,STU2026006,ALG1-A,9,62.0,62.4,61.6,3,1,8,0,1,High,Parent contact + intervention plan
+GS-STU2026007-W09,STU2026007,ALG1-A,9,53.7,53.4,53.9,2,2,3,1,1,High,Parent contact + intervention plan
+GS-STU2026008-W09,STU2026008,ALG1-A,9,52.7,54.3,51.3,2,6,2,0,1,High,Parent contact + intervention plan
+GS-STU2026009-W09,STU2026009,ALG1-A,9,62.8,46.8,75.9,7,0,5,3,1,High,Parent contact + intervention plan
+GS-STU2026010-W09,STU2026010,ALG1-A,9,64.5,59.2,68.7,2,0,4,4,1,High,Parent contact + intervention plan
+GS-STU2026011-W09,STU2026011,ALG1-A,9,78.2,67.4,87.1,4,1,1,1,1,Medium,Check-in and missing-work plan
+GS-STU2026012-W09,STU2026012,ALG1-A,9,58.5,60.4,56.9,2,1,13,1,0,High,Parent contact + intervention plan
+GS-STU2026013-W09,STU2026013,ALG1-A,9,77.9,80.7,75.7,0,0,0,1,2,Low,Continue monitoring
+GS-STU2026014-W09,STU2026014,ALG1-A,9,82.5,66.6,95.6,4,1,6,2,1,Medium,Check-in and missing-work plan
+GS-STU2026015-W09,STU2026015,ALG1-A,9,63.4,56.6,69.0,4,2,5,1,0,High,Parent contact + intervention plan
+GS-STU2026016-W09,STU2026016,ALG1-A,9,47.5,32.2,60.0,8,1,15,5,0,High,Parent contact + intervention plan
+GS-STU2026017-W09,STU2026017,ALG1-A,9,86.0,86.9,85.3,0,0,4,1,0,Medium,Check-in and missing-work plan
+GS-STU2026018-W09,STU2026018,ALG1-A,9,60.2,60.4,60.0,2,3,0,1,0,High,Parent contact + intervention plan
+GS-STU2026019-W09,STU2026019,ALG1-A,9,38.0,33.6,41.6,4,0,5,2,2,High,Parent contact + intervention plan
+GS-STU2026020-W09,STU2026020,ALG1-A,9,74.7,59.6,87.1,4,5,3,0,0,Medium,Check-in and missing-work plan
+GS-STU2026021-W09,STU2026021,ALG1-A,9,75.3,82.4,69.5,1,1,6,1,0,Medium,Check-in and missing-work plan
+GS-STU2026022-W09,STU2026022,ALG1-A,9,74.8,72.9,76.3,0,2,0,1,0,Medium,Check-in and missing-work plan
+GS-STU2026023-W09,STU2026023,ALG1-A,9,69.1,64.9,72.5,2,2,1,2,0,Medium,Check-in and missing-work plan
+GS-STU2026024-W09,STU2026024,ALG1-A,9,57.6,50.6,63.2,4,3,9,0,0,High,Parent contact + intervention plan
+GS-STU2026025-W09,STU2026025,ALG1-A,9,67.8,72.1,64.3,0,0,11,2,0,High,Parent contact + intervention plan
+GS-STU2026026-W09,STU2026026,ALG1-A,9,79.9,78.1,81.3,1,1,3,2,0,Low,Continue monitoring
+GS-STU2026027-W09,STU2026027,ALG1-A,9,62.8,63.2,62.5,1,1,0,2,0,High,Parent contact + intervention plan
+GS-STU2026028-W09,STU2026028,ALG1-A,9,51.2,35.6,63.9,7,3,10,1,2,High,Parent contact + intervention plan
+GS-STU2026029-W09,STU2026029,ALG1-A,9,74.0,70.8,76.6,3,1,2,3,2,Medium,Check-in and missing-work plan
+GS-STU2026030-W09,STU2026030,ALG1-A,9,80.4,68.1,90.5,4,2,5,4,1,Medium,Check-in and missing-work plan
+GS-STU2026031-W09,STU2026031,ALG1-A,9,62.5,61.5,63.3,3,2,9,0,1,High,Parent contact + intervention plan
+GS-STU2026032-W09,STU2026032,ALG1-A,9,47.9,44.2,50.9,6,0,3,1,1,High,Parent contact + intervention plan
+GS-STU2026033-W09,STU2026033,ALG1-A,9,58.5,57.9,59.1,2,1,8,2,0,High,Parent contact + intervention plan
+GS-STU2026034-W09,STU2026034,ALG1-A,9,77.8,65.1,88.1,4,2,11,1,0,High,Parent contact + intervention plan
+GS-STU2026035-W09,STU2026035,ALG1-A,9,76.9,67.8,84.4,4,0,3,1,0,Medium,Check-in and missing-work plan
+GS-STU2026036-W09,STU2026036,ALG1-A,9,76.8,75.0,78.4,2,3,8,3,0,High,Parent contact + intervention plan
+GS-STU2026037-W09,STU2026037,ALG1-A,9,81.0,73.2,87.3,2,3,1,1,0,Low,Continue monitoring
+GS-STU2026038-W09,STU2026038,ALG1-A,9,84.4,80.2,87.7,2,3,1,2,0,Low,Continue monitoring
+GS-STU2026039-W09,STU2026039,ALG1-A,9,71.3,70.2,72.3,2,0,4,0,0,Medium,Check-in and missing-work plan
+GS-STU2026040-W09,STU2026040,ALG1-A,9,86.2,79.9,91.3,2,2,8,0,0,High,Parent contact + intervention plan
+GS-STU2026041-W09,STU2026041,ALG1-B,9,66.5,69.6,63.9,2,2,2,1,0,Medium,Check-in and missing-work plan
+GS-STU2026042-W09,STU2026042,ALG1-B,9,82.1,82.9,81.4,0,2,1,0,0,Low,Continue monitoring
+GS-STU2026043-W09,STU2026043,ALG1-B,9,82.1,75.7,87.3,2,1,0,2,2,Low,Continue monitoring
+GS-STU2026044-W09,STU2026044,ALG1-B,9,65.6,62.4,68.1,3,2,4,2,1,Medium,Check-in and missing-work plan
+GS-STU2026045-W09,STU2026045,ALG1-B,9,48.8,51.1,46.9,2,1,6,1,1,High,Parent contact + intervention plan
+GS-STU2026046-W09,STU2026046,ALG1-B,9,44.3,41.7,46.4,3,2,11,1,1,High,Parent contact + intervention plan
+GS-STU2026047-W09,STU2026047,ALG1-B,9,53.6,38.8,65.6,8,2,4,2,2,High,Parent contact + intervention plan
+GS-STU2026048-W09,STU2026048,ALG1-B,9,84.6,77.3,90.5,3,1,5,1,0,Medium,Check-in and missing-work plan
+GS-STU2026049-W09,STU2026049,ALG1-B,9,43.7,41.0,45.8,6,0,14,1,2,High,Parent contact + intervention plan
+GS-STU2026050-W09,STU2026050,ALG1-B,9,82.9,85.8,80.5,0,4,2,1,0,Low,Continue monitoring
+GS-STU2026051-W09,STU2026051,ALG1-B,9,69.5,68.5,70.3,1,4,0,4,0,Medium,Check-in and missing-work plan
+GS-STU2026052-W09,STU2026052,ALG1-B,9,52.8,53.7,52.0,3,1,2,2,1,High,Parent contact + intervention plan
+GS-STU2026053-W09,STU2026053,ALG1-B,9,63.5,59.7,66.7,3,0,6,2,0,High,Parent contact + intervention plan
+GS-STU2026054-W09,STU2026054,ALG1-B,9,62.8,48.8,74.1,4,4,3,0,1,High,Parent contact + intervention plan
+GS-STU2026055-W09,STU2026055,ALG1-B,9,84.7,86.2,83.5,1,0,1,1,0,Low,Continue monitoring
+GS-STU2026056-W09,STU2026056,ALG1-B,9,69.7,55.7,81.1,4,1,4,0,1,Medium,Check-in and missing-work plan
+GS-STU2026057-W09,STU2026057,ALG1-B,9,48.6,47.4,49.6,3,2,9,2,2,High,Parent contact + intervention plan
+GS-STU2026058-W09,STU2026058,ALG1-B,9,77.9,72.6,82.2,2,4,3,3,0,Low,Continue monitoring
+GS-STU2026059-W09,STU2026059,ALG1-B,9,74.6,66.0,81.7,3,0,1,2,1,Medium,Check-in and missing-work plan
+GS-STU2026060-W09,STU2026060,ALG1-B,9,60.4,49.6,69.3,4,2,9,0,0,High,Parent contact + intervention plan
+GS-STU2026061-W09,STU2026061,ALG1-B,9,74.1,65.5,81.1,1,0,0,1,2,Medium,Check-in and missing-work plan
+GS-STU2026062-W09,STU2026062,ALG1-B,9,69.4,61.5,75.8,4,1,2,0,0,Medium,Check-in and missing-work plan
+GS-STU2026063-W09,STU2026063,ALG1-B,9,38.9,32.1,44.5,5,1,7,3,0,High,Parent contact + intervention plan
+GS-STU2026064-W09,STU2026064,ALG1-B,9,87.4,86.9,87.9,1,2,5,3,1,Medium,Check-in and missing-work plan
+GS-STU2026065-W09,STU2026065,ALG1-B,9,88.5,85.7,90.8,1,3,6,0,2,Medium,Check-in and missing-work plan
+GS-STU2026066-W09,STU2026066,ALG1-B,9,51.0,52.9,49.5,4,2,4,3,0,High,Parent contact + intervention plan
+GS-STU2026067-W09,STU2026067,ALG1-B,9,73.6,62.3,82.9,4,1,1,1,1,Medium,Check-in and missing-work plan
+GS-STU2026068-W09,STU2026068,ALG1-B,9,87.1,83.2,90.4,1,4,6,3,0,Medium,Check-in and missing-work plan
+GS-STU2026069-W09,STU2026069,ALG1-B,9,46.0,44.0,47.6,6,3,6,4,1,High,Parent contact + intervention plan
+GS-STU2026070-W09,STU2026070,ALG1-B,9,67.4,59.1,74.2,4,2,5,0,2,Medium,Check-in and missing-work plan
+GS-STU2026071-W09,STU2026071,ALG1-B,9,70.5,72.7,68.7,1,0,10,0,0,High,Parent contact + intervention plan
+GS-STU2026072-W09,STU2026072,ALG1-B,9,60.2,49.0,69.4,6,2,7,1,0,High,Parent contact + intervention plan
+GS-STU2026073-W09,STU2026073,ALG1-B,9,75.6,76.7,74.6,2,2,3,1,0,Low,Continue monitoring
+GS-STU2026074-W09,STU2026074,ALG1-B,9,53.1,65.0,43.3,0,3,4,6,0,High,Parent contact + intervention plan
+GS-STU2026075-W09,STU2026075,ALG1-B,9,73.9,66.8,79.8,4,3,2,1,0,Medium,Check-in and missing-work plan
+GS-STU2026076-W09,STU2026076,ALG1-B,9,85.4,84.2,86.4,1,2,0,1,0,Low,Continue monitoring
+GS-STU2026077-W09,STU2026077,ALG1-B,9,78.3,75.3,80.9,1,3,1,2,1,Low,Continue monitoring
+GS-STU2026078-W09,STU2026078,ALG1-B,9,79.2,84.3,75.1,1,0,7,0,0,High,Parent contact + intervention plan
+GS-STU2026079-W09,STU2026079,ALG1-B,9,91.8,85.2,97.1,0,5,3,0,0,Low,Continue monitoring
+GS-STU2026080-W09,STU2026080,ALG1-B,9,79.6,73.6,84.6,1,1,5,1,1,Medium,Check-in and missing-work plan
+GS-STU2026081-W09,STU2026081,ALG1-C,9,58.8,41.8,72.8,5,2,11,2,0,High,Parent contact + intervention plan
+GS-STU2026082-W09,STU2026082,ALG1-C,9,81.8,86.0,78.5,1,1,2,2,0,Low,Continue monitoring
+GS-STU2026083-W09,STU2026083,ALG1-C,9,67.0,70.2,64.3,2,1,5,0,0,Medium,Check-in and missing-work plan
+GS-STU2026084-W09,STU2026084,ALG1-C,9,43.2,41.1,45.0,5,1,0,0,0,High,Parent contact + intervention plan
+GS-STU2026085-W09,STU2026085,ALG1-C,9,59.2,71.0,49.5,0,1,4,5,1,High,Parent contact + intervention plan
+GS-STU2026086-W09,STU2026086,ALG1-C,9,55.5,55.7,55.3,4,1,2,4,2,High,Parent contact + intervention plan
+GS-STU2026087-W09,STU2026087,ALG1-C,9,73.8,71.8,75.5,2,2,4,3,0,Medium,Check-in and missing-work plan
+GS-STU2026088-W09,STU2026088,ALG1-C,9,66.2,60.3,71.0,2,2,1,3,0,Medium,Check-in and missing-work plan
+GS-STU2026089-W09,STU2026089,ALG1-C,9,63.4,65.1,62.0,2,0,8,2,1,High,Parent contact + intervention plan
+GS-STU2026090-W09,STU2026090,ALG1-C,9,74.1,69.7,77.7,2,1,3,0,0,Medium,Check-in and missing-work plan
+GS-STU2026091-W09,STU2026091,ALG1-C,9,78.8,77.6,79.8,0,1,1,4,0,Low,Continue monitoring
+GS-STU2026092-W09,STU2026092,ALG1-C,9,66.8,64.3,68.9,2,2,5,1,0,Medium,Check-in and missing-work plan
+GS-STU2026093-W09,STU2026093,ALG1-C,9,63.2,59.6,66.1,3,1,8,2,1,High,Parent contact + intervention plan
+GS-STU2026094-W09,STU2026094,ALG1-C,9,75.1,68.3,80.6,3,2,2,1,1,Medium,Check-in and missing-work plan
+GS-STU2026095-W09,STU2026095,ALG1-C,9,89.3,80.7,96.3,1,1,0,2,1,Low,Continue monitoring
+GS-STU2026096-W09,STU2026096,ALG1-C,9,81.3,81.3,81.3,1,1,0,1,0,Low,Continue monitoring
+GS-STU2026097-W09,STU2026097,ALG1-C,9,60.7,53.7,66.5,3,2,10,0,2,High,Parent contact + intervention plan
+GS-STU2026098-W09,STU2026098,ALG1-C,9,47.3,37.5,55.4,3,3,3,2,0,High,Parent contact + intervention plan
+GS-STU2026099-W09,STU2026099,ALG1-C,9,54.4,58.3,51.2,2,2,2,1,0,High,Parent contact + intervention plan
+GS-STU2026100-W09,STU2026100,ALG1-C,9,67.6,64.0,70.5,2,3,9,0,0,High,Parent contact + intervention plan
+GS-STU2026101-W09,STU2026101,ALG1-C,9,94.2,95.2,93.3,0,2,9,0,0,High,Parent contact + intervention plan
+GS-STU2026102-W09,STU2026102,ALG1-C,9,42.5,33.1,50.2,4,2,6,3,1,High,Parent contact + intervention plan
+GS-STU2026103-W09,STU2026103,ALG1-C,9,43.9,38.3,48.4,5,2,5,0,1,High,Parent contact + intervention plan
+GS-STU2026104-W09,STU2026104,ALG1-C,9,50.9,40.8,59.1,6,4,3,2,1,High,Parent contact + intervention plan
+GS-STU2026105-W09,STU2026105,ALG1-C,9,92.2,93.6,91.0,0,0,3,1,0,Low,Continue monitoring
+GS-STU2026106-W09,STU2026106,ALG1-C,9,76.1,65.2,85.1,2,1,4,4,0,Medium,Check-in and missing-work plan
+GS-STU2026107-W09,STU2026107,ALG1-C,9,41.3,25.2,54.5,7,1,5,3,1,High,Parent contact + intervention plan
+GS-STU2026108-W09,STU2026108,ALG1-C,9,61.2,51.5,69.2,3,1,12,0,0,High,Parent contact + intervention plan
+GS-STU2026109-W09,STU2026109,ALG1-C,9,70.1,57.8,80.3,3,2,4,1,0,Medium,Check-in and missing-work plan
+GS-STU2026110-W09,STU2026110,ALG1-C,9,70.3,62.8,76.4,2,4,6,1,0,Medium,Check-in and missing-work plan
+GS-STU2026111-W09,STU2026111,ALG1-C,9,69.2,62.8,74.4,3,2,0,2,0,Medium,Check-in and missing-work plan
+GS-STU2026112-W09,STU2026112,ALG1-C,9,78.2,69.5,85.3,2,2,6,3,1,Medium,Check-in and missing-work plan
+GS-STU2026113-W09,STU2026113,ALG1-C,9,84.4,83.1,85.5,1,1,6,1,0,Medium,Check-in and missing-work plan
+GS-STU2026114-W09,STU2026114,ALG1-C,9,66.5,59.0,72.7,5,0,0,2,0,Medium,Check-in and missing-work plan
+GS-STU2026115-W09,STU2026115,ALG1-C,9,75.0,77.7,72.8,1,2,4,1,0,Medium,Check-in and missing-work plan
+GS-STU2026116-W09,STU2026116,ALG1-C,9,65.0,52.7,75.0,4,1,3,2,0,Medium,Check-in and missing-work plan
+GS-STU2026117-W09,STU2026117,ALG1-C,9,79.4,65.7,90.5,4,0,1,1,0,Medium,Check-in and missing-work plan
+GS-STU2026118-W09,STU2026118,ALG1-C,9,76.7,69.1,82.9,2,1,7,3,0,High,Parent contact + intervention plan
+GS-STU2026119-W09,STU2026119,ALG1-C,9,71.0,62.1,78.3,3,3,2,2,2,Medium,Check-in and missing-work plan
+GS-STU2026120-W09,STU2026120,ALG1-C,9,90.0,82.7,96.0,1,3,6,1,0,Medium,Check-in and missing-work plan
+GS-STU2026121-W09,STU2026121,ALG1-D,9,86.1,80.3,90.8,0,1,1,1,0,Low,Continue monitoring
+GS-STU2026122-W09,STU2026122,ALG1-D,9,61.0,40.8,77.5,5,6,7,3,1,High,Parent contact + intervention plan
+GS-STU2026123-W09,STU2026123,ALG1-D,9,64.9,69.6,61.1,1,1,4,1,0,High,Parent contact + intervention plan
+GS-STU2026124-W09,STU2026124,ALG1-D,9,44.8,39.8,48.8,5,1,3,1,1,High,Parent contact + intervention plan
+GS-STU2026125-W09,STU2026125,ALG1-D,9,67.0,57.3,75.0,3,3,9,0,0,High,Parent contact + intervention plan
+GS-STU2026126-W09,STU2026126,ALG1-D,9,83.4,79.1,86.9,0,3,3,1,0,Low,Continue monitoring
+GS-STU2026127-W09,STU2026127,ALG1-D,9,80.9,69.8,90.0,2,1,6,1,0,Medium,Check-in and missing-work plan
+GS-STU2026128-W09,STU2026128,ALG1-D,9,69.9,58.8,78.9,4,3,15,4,1,High,Parent contact + intervention plan
+GS-STU2026129-W09,STU2026129,ALG1-D,9,79.3,67.9,88.6,4,2,4,2,0,Medium,Check-in and missing-work plan
+GS-STU2026130-W09,STU2026130,ALG1-D,9,69.8,75.9,64.8,2,1,6,1,2,Medium,Check-in and missing-work plan
+GS-STU2026131-W09,STU2026131,ALG1-D,9,84.3,75.0,91.8,2,3,6,2,1,Medium,Check-in and missing-work plan
+GS-STU2026132-W09,STU2026132,ALG1-D,9,67.1,71.2,63.7,0,3,5,1,0,Medium,Check-in and missing-work plan
+GS-STU2026133-W09,STU2026133,ALG1-D,9,74.4,51.7,93.1,6,1,7,2,0,High,Parent contact + intervention plan
+GS-STU2026134-W09,STU2026134,ALG1-D,9,81.3,71.1,89.6,4,1,4,4,0,Medium,Check-in and missing-work plan
+GS-STU2026135-W09,STU2026135,ALG1-D,9,59.7,63.2,56.9,0,5,10,2,1,High,Parent contact + intervention plan
+GS-STU2026136-W09,STU2026136,ALG1-D,9,81.0,84.1,78.5,0,0,2,1,0,Low,Continue monitoring
+GS-STU2026137-W09,STU2026137,ALG1-D,9,90.8,92.0,89.9,0,0,3,2,0,Low,Continue monitoring
+GS-STU2026138-W09,STU2026138,ALG1-D,9,65.5,59.3,70.5,3,3,3,2,0,Medium,Check-in and missing-work plan
+GS-STU2026139-W09,STU2026139,ALG1-D,9,53.6,52.8,54.2,1,2,1,0,1,High,Parent contact + intervention plan
+GS-STU2026140-W09,STU2026140,ALG1-D,9,73.9,70.6,76.6,2,1,2,1,0,Medium,Check-in and missing-work plan
+GS-STU2026141-W09,STU2026141,ALG1-D,9,63.2,65.1,61.7,0,1,0,1,0,High,Parent contact + intervention plan
+GS-STU2026142-W09,STU2026142,ALG1-D,9,55.4,49.0,60.6,4,4,2,2,1,High,Parent contact + intervention plan
+GS-STU2026143-W09,STU2026143,ALG1-D,9,79.3,70.0,86.9,2,1,9,4,1,High,Parent contact + intervention plan
+GS-STU2026144-W09,STU2026144,ALG1-D,9,59.2,37.4,77.1,7,6,2,1,0,High,Parent contact + intervention plan
+GS-STU2026145-W09,STU2026145,ALG1-D,9,78.3,74.3,81.6,2,2,4,3,0,Medium,Check-in and missing-work plan
+GS-STU2026146-W09,STU2026146,ALG1-D,9,64.4,69.2,60.4,1,2,12,1,0,High,Parent contact + intervention plan
+GS-STU2026147-W09,STU2026147,ALG1-D,9,86.5,87.5,85.8,0,1,5,0,0,Medium,Check-in and missing-work plan
+GS-STU2026148-W09,STU2026148,ALG1-D,9,63.5,54.4,70.9,3,1,2,0,1,High,Parent contact + intervention plan
+GS-STU2026149-W09,STU2026149,ALG1-D,9,72.3,67.3,76.4,2,1,3,2,0,Medium,Check-in and missing-work plan
+GS-STU2026150-W09,STU2026150,ALG1-D,9,73.4,61.9,82.7,4,3,1,1,0,Medium,Check-in and missing-work plan
+GS-STU2026151-W09,STU2026151,ALG1-D,9,64.2,67.3,61.7,1,1,8,3,0,High,Parent contact + intervention plan
+GS-STU2026152-W09,STU2026152,ALG1-D,9,83.6,81.1,85.7,0,2,2,1,0,Low,Continue monitoring
+GS-STU2026153-W09,STU2026153,ALG1-D,9,52.5,55.3,50.3,3,3,3,3,1,High,Parent contact + intervention plan
+GS-STU2026154-W09,STU2026154,ALG1-D,9,89.2,85.6,92.2,1,2,4,1,2,Medium,Check-in and missing-work plan
+GS-STU2026155-W09,STU2026155,ALG1-D,9,69.1,58.4,77.9,3,0,9,3,0,High,Parent contact + intervention plan
+GS-STU2026156-W09,STU2026156,ALG1-D,9,74.3,74.4,74.1,1,4,1,4,0,Medium,Check-in and missing-work plan
+GS-STU2026157-W09,STU2026157,ALG1-D,9,63.2,71.8,56.1,0,2,1,3,3,High,Parent contact + intervention plan
+GS-STU2026158-W09,STU2026158,ALG1-D,9,68.0,71.6,65.1,0,0,6,1,0,Medium,Check-in and missing-work plan
+GS-STU2026159-W09,STU2026159,ALG1-D,9,71.6,69.0,73.7,2,2,4,1,1,Medium,Check-in and missing-work plan
+GS-STU2026160-W09,STU2026160,ALG1-D,9,79.4,75.1,82.8,1,1,3,4,0,Low,Continue monitoring

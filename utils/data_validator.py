@@ -3,10 +3,16 @@ Data Validation Script for Teacher Assistant Dashboard
 Checks CSV files for common errors and data integrity issues
 """
 
+import argparse
 import pandas as pd
 import os
 from datetime import datetime
 import re
+
+try:
+    from utils.simulated_data_validator import SimulatedDataValidator
+except ImportError:
+    from simulated_data_validator import SimulatedDataValidator
 
 class DataValidator:
     def __init__(self, data_dir='data'):
@@ -251,6 +257,40 @@ class DataValidator:
 
 
 if __name__ == "__main__":
-    validator = DataValidator()
-    success = validator.run_all_validations()
+    parser = argparse.ArgumentParser(
+        description="Validate legacy CSV data, simulated normalized data, or both datasets."
+    )
+    parser.add_argument(
+        "--data-source",
+        choices=["legacy", "simulated", "both"],
+        default="legacy",
+        help="Select which dataset to validate (default: legacy)."
+    )
+    parser.add_argument(
+        "--data-dir",
+        default="data",
+        help="Base data directory (default: data)."
+    )
+    args = parser.parse_args()
+
+    if args.data_source == "legacy":
+        success = DataValidator(data_dir=args.data_dir).run_all_validations()
+    elif args.data_source == "simulated":
+        success = SimulatedDataValidator(data_dir=args.data_dir).run_all_validations()
+    else:
+        print("Running legacy validation...\n")
+        legacy_ok = DataValidator(data_dir=args.data_dir).run_all_validations()
+        print("\nRunning simulated validation...\n")
+        simulated_ok = SimulatedDataValidator(data_dir=args.data_dir).run_all_validations()
+
+        success = legacy_ok and simulated_ok
+        print("\n" + "=" * 60)
+        print("OVERALL RESULT")
+        print("=" * 60)
+        if success:
+            print("All selected validations passed.")
+        else:
+            print("One or more selected validations failed.")
+        print("=" * 60)
+
     exit(0 if success else 1)

@@ -1,0 +1,9 @@
+assessment_id,course_id,assessment_title,assessment_type,unit,assessment_date,points_possible
+ASM01,ALL,Quiz 1: Expressions & Equations,Quiz,Expressions & Equations,2026-09-17,25
+ASM02,ALL,Quiz 2: Expressions & Equations,Quiz,Expressions & Equations,2026-09-24,25
+ASM03,ALL,Quiz 3: Linear Functions,Quiz,Linear Functions,2026-10-01,25
+ASM04,ALL,Unit Test 4: Linear Functions,Unit Test,Linear Functions,2026-10-08,100
+ASM05,ALL,Quiz 5: Systems of Equations,Quiz,Systems of Equations,2026-10-15,25
+ASM06,ALL,Quiz 6: Systems of Equations,Quiz,Systems of Equations,2026-10-22,25
+ASM07,ALL,Quiz 7: Inequalities,Quiz,Inequalities,2026-10-29,25
+ASM08,ALL,Unit Test 8: Inequalities,Unit Test,Inequalities,2026-11-05,100

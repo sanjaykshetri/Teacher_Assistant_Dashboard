@@ -1,0 +1,80 @@
+incident_id,student_id,course_id,date,incident_type,severity,action_taken,notes
+BEH-STU2026003-1,STU2026003,ALG1-A,2026-10-29,Phone use,Low,Restorative conversation,Simulated phone use record.
+BEH-STU2026006-1,STU2026006,ALG1-A,2026-09-09,Disruption,Medium,Restorative conversation,Simulated disruption record.
+BEH-STU2026007-1,STU2026007,ALG1-A,2026-10-05,Off-task/refusal,Low,Referral,Simulated off-task/refusal record.
+BEH-STU2026008-1,STU2026008,ALG1-A,2026-09-16,Disruption,Low,Referral,Simulated disruption record.
+BEH-STU2026009-1,STU2026009,ALG1-A,2026-09-25,Disruption,Medium,Seat change,Simulated disruption record.
+BEH-STU2026010-1,STU2026010,ALG1-A,2026-10-30,Unprepared for class,Low,Seat change,Simulated unprepared for class record.
+BEH-STU2026011-1,STU2026011,ALG1-A,2026-09-28,Unprepared for class,Low,Seat change,Simulated unprepared for class record.
+BEH-STU2026013-1,STU2026013,ALG1-A,2026-09-14,Phone use,Low,Parent/guardian contact,Simulated phone use record.
+BEH-STU2026013-2,STU2026013,ALG1-A,2026-10-08,Off-task/refusal,Medium,Parent/guardian contact,Simulated off-task/refusal record.
+BEH-STU2026014-1,STU2026014,ALG1-A,2026-10-19,Off-task/refusal,Low,Parent/guardian contact,Simulated off-task/refusal record.
+BEH-STU2026019-1,STU2026019,ALG1-A,2026-10-27,Unprepared for class,Medium,Teacher conference,Simulated unprepared for class record.
+BEH-STU2026019-2,STU2026019,ALG1-A,2026-09-24,Unprepared for class,Low,Teacher conference,Simulated unprepared for class record.
+BEH-STU2026028-1,STU2026028,ALG1-A,2026-10-01,Off-task/refusal,Low,Seat change,Simulated off-task/refusal record.
+BEH-STU2026028-2,STU2026028,ALG1-A,2026-09-25,Phone use,High,Restorative conversation,Simulated phone use record.
+BEH-STU2026029-1,STU2026029,ALG1-A,2026-10-26,Academic dishonesty concern,Low,Seat change,Simulated academic dishonesty concern record.
+BEH-STU2026029-2,STU2026029,ALG1-A,2026-09-15,Disruption,Low,Restorative conversation,Simulated disruption record.
+BEH-STU2026030-1,STU2026030,ALG1-A,2026-11-04,Unprepared for class,Low,Seat change,Simulated unprepared for class record.
+BEH-STU2026031-1,STU2026031,ALG1-A,2026-10-01,Phone use,Low,Teacher conference,Simulated phone use record.
+BEH-STU2026032-1,STU2026032,ALG1-A,2026-10-30,Academic dishonesty concern,Low,Referral,Simulated academic dishonesty concern record.
+BEH-STU2026043-1,STU2026043,ALG1-B,2026-09-23,Phone use,Medium,Parent/guardian contact,Simulated phone use record.
+BEH-STU2026043-2,STU2026043,ALG1-B,2026-09-28,Unprepared for class,Low,Restorative conversation,Simulated unprepared for class record.
+BEH-STU2026044-1,STU2026044,ALG1-B,2026-10-26,Off-task/refusal,Low,Parent/guardian contact,Simulated off-task/refusal record.
+BEH-STU2026045-1,STU2026045,ALG1-B,2026-10-02,Disruption,Low,Parent/guardian contact,Simulated disruption record.
+BEH-STU2026046-1,STU2026046,ALG1-B,2026-10-22,Off-task/refusal,Low,Seat change,Simulated off-task/refusal record.
+BEH-STU2026047-1,STU2026047,ALG1-B,2026-11-06,Phone use,Low,Restorative conversation,Simulated phone use record.
+BEH-STU2026047-2,STU2026047,ALG1-B,2026-09-16,Disruption,Low,Referral,Simulated disruption record.
+BEH-STU2026049-1,STU2026049,ALG1-B,2026-10-09,Phone use,Low,Teacher conference,Simulated phone use record.
+BEH-STU2026049-2,STU2026049,ALG1-B,2026-10-30,Unprepared for class,Medium,Teacher conference,Simulated unprepared for class record.
+BEH-STU2026052-1,STU2026052,ALG1-B,2026-09-29,Disruption,High,Seat change,Simulated disruption record.
+BEH-STU2026054-1,STU2026054,ALG1-B,2026-10-08,Disruption,Medium,Restorative conversation,Simulated disruption record.
+BEH-STU2026056-1,STU2026056,ALG1-B,2026-09-25,Off-task/refusal,Low,Seat change,Simulated off-task/refusal record.
+BEH-STU2026057-1,STU2026057,ALG1-B,2026-11-06,Off-task/refusal,Medium,Parent/guardian contact,Simulated off-task/refusal record.
+BEH-STU2026057-2,STU2026057,ALG1-B,2026-10-14,Academic dishonesty concern,Low,Referral,Simulated academic dishonesty concern record.
+BEH-STU2026059-1,STU2026059,ALG1-B,2026-10-05,Disruption,Medium,Referral,Simulated disruption record.
+BEH-STU2026061-1,STU2026061,ALG1-B,2026-09-28,Phone use,Low,Teacher conference,Simulated phone use record.
+BEH-STU2026061-2,STU2026061,ALG1-B,2026-10-06,Disruption,Low,Referral,Simulated disruption record.
+BEH-STU2026064-1,STU2026064,ALG1-B,2026-11-05,Unprepared for class,Low,Seat change,Simulated unprepared for class record.
+BEH-STU2026065-1,STU2026065,ALG1-B,2026-09-08,Disruption,High,Seat change,Simulated disruption record.
+BEH-STU2026065-2,STU2026065,ALG1-B,2026-11-09,Phone use,Medium,Restorative conversation,Simulated phone use record.
+BEH-STU2026067-1,STU2026067,ALG1-B,2026-10-23,Off-task/refusal,Low,Teacher conference,Simulated off-task/refusal record.
+BEH-STU2026069-1,STU2026069,ALG1-B,2026-10-09,Phone use,Low,Seat change,Simulated phone use record.
+BEH-STU2026070-1,STU2026070,ALG1-B,2026-11-03,Phone use,Low,Parent/guardian contact,Simulated phone use record.
+BEH-STU2026070-2,STU2026070,ALG1-B,2026-10-27,Disruption,Medium,Teacher conference,Simulated disruption record.
+BEH-STU2026077-1,STU2026077,ALG1-B,2026-10-15,Off-task/refusal,Low,Restorative conversation,Simulated off-task/refusal record.
+BEH-STU2026080-1,STU2026080,ALG1-B,2026-10-28,Phone use,Low,Seat change,Simulated phone use record.
+BEH-STU2026085-1,STU2026085,ALG1-C,2026-09-23,Off-task/refusal,Low,Restorative conversation,Simulated off-task/refusal record.
+BEH-STU2026086-1,STU2026086,ALG1-C,2026-09-09,Disruption,Low,Restorative conversation,Simulated disruption record.
+BEH-STU2026086-2,STU2026086,ALG1-C,2026-10-22,Off-task/refusal,Low,Restorative conversation,Simulated off-task/refusal record.
+BEH-STU2026089-1,STU2026089,ALG1-C,2026-09-17,Phone use,Low,Parent/guardian contact,Simulated phone use record.
+BEH-STU2026093-1,STU2026093,ALG1-C,2026-10-09,Off-task/refusal,Low,Teacher conference,Simulated off-task/refusal record.
+BEH-STU2026094-1,STU2026094,ALG1-C,2026-09-22,Disruption,Low,Seat change,Simulated disruption record.
+BEH-STU2026095-1,STU2026095,ALG1-C,2026-09-28,Disruption,Low,Referral,Simulated disruption record.
+BEH-STU2026097-1,STU2026097,ALG1-C,2026-10-08,Off-task/refusal,Medium,Seat change,Simulated off-task/refusal record.
+BEH-STU2026097-2,STU2026097,ALG1-C,2026-11-04,Phone use,Low,Restorative conversation,Simulated phone use record.
+BEH-STU2026102-1,STU2026102,ALG1-C,2026-10-09,Disruption,Low,Seat change,Simulated disruption record.
+BEH-STU2026103-1,STU2026103,ALG1-C,2026-09-21,Unprepared for class,Medium,Referral,Simulated unprepared for class record.
+BEH-STU2026104-1,STU2026104,ALG1-C,2026-10-28,Disruption,High,Teacher conference,Simulated disruption record.
+BEH-STU2026107-1,STU2026107,ALG1-C,2026-10-29,Disruption,Medium,Teacher conference,Simulated disruption record.
+BEH-STU2026112-1,STU2026112,ALG1-C,2026-10-15,Disruption,Low,Teacher conference,Simulated disruption record.
+BEH-STU2026119-1,STU2026119,ALG1-C,2026-09-08,Off-task/refusal,Low,Restorative conversation,Simulated off-task/refusal record.
+BEH-STU2026119-2,STU2026119,ALG1-C,2026-10-26,Unprepared for class,Medium,Referral,Simulated unprepared for class record.
+BEH-STU2026122-1,STU2026122,ALG1-D,2026-09-09,Disruption,Low,Seat change,Simulated disruption record.
+BEH-STU2026124-1,STU2026124,ALG1-D,2026-11-04,Phone use,High,Teacher conference,Simulated phone use record.
+BEH-STU2026128-1,STU2026128,ALG1-D,2026-11-02,Unprepared for class,Medium,Referral,Simulated unprepared for class record.
+BEH-STU2026130-1,STU2026130,ALG1-D,2026-09-18,Disruption,Low,Restorative conversation,Simulated disruption record.
+BEH-STU2026130-2,STU2026130,ALG1-D,2026-11-09,Phone use,Low,Seat change,Simulated phone use record.
+BEH-STU2026131-1,STU2026131,ALG1-D,2026-09-25,Phone use,Low,Restorative conversation,Simulated phone use record.
+BEH-STU2026135-1,STU2026135,ALG1-D,2026-10-08,Academic dishonesty concern,Low,Seat change,Simulated academic dishonesty concern record.
+BEH-STU2026139-1,STU2026139,ALG1-D,2026-09-18,Phone use,Low,Restorative conversation,Simulated phone use record.
+BEH-STU2026142-1,STU2026142,ALG1-D,2026-10-22,Phone use,Medium,Teacher conference,Simulated phone use record.
+BEH-STU2026143-1,STU2026143,ALG1-D,2026-10-16,Unprepared for class,Low,Restorative conversation,Simulated unprepared for class record.
+BEH-STU2026148-1,STU2026148,ALG1-D,2026-09-28,Phone use,Medium,Parent/guardian contact,Simulated phone use record.
+BEH-STU2026153-1,STU2026153,ALG1-D,2026-10-16,Unprepared for class,Medium,Referral,Simulated unprepared for class record.
+BEH-STU2026154-1,STU2026154,ALG1-D,2026-10-27,Disruption,Low,Restorative conversation,Simulated disruption record.
+BEH-STU2026154-2,STU2026154,ALG1-D,2026-09-09,Unprepared for class,Low,Restorative conversation,Simulated unprepared for class record.
+BEH-STU2026157-1,STU2026157,ALG1-D,2026-10-22,Unprepared for class,Low,Teacher conference,Simulated unprepared for class record.
+BEH-STU2026157-2,STU2026157,ALG1-D,2026-10-30,Off-task/refusal,Low,Parent/guardian contact,Simulated off-task/refusal record.
+BEH-STU2026157-3,STU2026157,ALG1-D,2026-09-30,Off-task/refusal,Low,Parent/guardian contact,Simulated off-task/refusal record.
+BEH-STU2026159-1,STU2026159,ALG1-D,2026-10-06,Academic dishonesty concern,Medium,Parent/guardian contact,Simulated academic dishonesty concern record.

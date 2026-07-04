@@ -1,0 +1,19 @@
+assignment_id,course_id,assignment_title,assignment_type,unit,date_assigned,date_due,points_possible
+HW01,ALL,Practice 1: Expressions & Equations,Homework,Expressions & Equations,2026-09-09,2026-09-11,20
+HW02,ALL,Practice 2: Expressions & Equations,Classwork,Expressions & Equations,2026-09-13,2026-09-15,10
+HW03,ALL,Practice 3: Expressions & Equations,Homework,Expressions & Equations,2026-09-15,2026-09-17,20
+HW04,ALL,Practice 4: Expressions & Equations,Exit Ticket,Expressions & Equations,2026-09-19,2026-09-21,20
+HW05,ALL,Practice 5: Expressions & Equations,Classwork,Expressions & Equations,2026-09-21,2026-09-23,20
+HW06,ALL,Practice 6: Linear Functions,Homework,Linear Functions,2026-09-23,2026-09-25,20
+HW07,ALL,Practice 7: Linear Functions,Classwork,Linear Functions,2026-09-27,2026-09-29,10
+HW08,ALL,Practice 8: Linear Functions,Classwork,Linear Functions,2026-09-29,2026-10-01,20
+HW09,ALL,Practice 9: Linear Functions,Exit Ticket,Linear Functions,2026-10-03,2026-10-05,20
+HW10,ALL,Practice 10: Linear Functions,Homework,Linear Functions,2026-10-05,2026-10-07,15
+HW11,ALL,Practice 11: Systems of Equations,Homework,Systems of Equations,2026-10-07,2026-10-09,20
+HW12,ALL,Practice 12: Systems of Equations,Classwork,Systems of Equations,2026-10-11,2026-10-13,20
+HW13,ALL,Practice 13: Systems of Equations,Classwork,Systems of Equations,2026-10-13,2026-10-15,20
+HW14,ALL,Practice 14: Systems of Equations,Homework,Systems of Equations,2026-10-17,2026-10-19,10
+HW15,ALL,Practice 15: Systems of Equations,Homework,Systems of Equations,2026-10-19,2026-10-21,20
+HW16,ALL,Practice 16: Inequalities,Homework,Inequalities,2026-10-21,2026-10-23,20
+HW17,ALL,Practice 17: Inequalities,Classwork,Inequalities,2026-10-25,2026-10-27,20
+HW18,ALL,Practice 18: Inequalities,Exit Ticket,Inequalities,2026-10-27,2026-10-29,10

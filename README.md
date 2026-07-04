@@ -1,5 +1,7 @@
 # Teacher Assistant Dashboard 📚
 
+[![Data Validation](https://github.com/sanjaykshetri/Teacher_Assistant_Dashboard/actions/workflows/data-validation.yml/badge.svg?branch=main)](https://github.com/sanjaykshetri/Teacher_Assistant_Dashboard/actions/workflows/data-validation.yml)
+
 A comprehensive Streamlit dashboard designed to centralize and streamline various aspects of teaching responsibilities, including student record management and automated email generation.
 
 ## Features
@@ -58,6 +60,10 @@ streamlit run app.py
    - **Email Generator**: Create individual student emails
    - **Batch Email Generation**: Generate multiple emails at once
 
+4. In the sidebar, choose a **Data Source**:
+  - **Simulated Dataset**: Uses the richer multi-table simulated data under `data/sim_data/`
+  - **Legacy Sample Data**: Uses the original four CSV files under `data/`
+
 ## Data Management
 
 ### 📊 Data Structure
@@ -68,6 +74,21 @@ The application uses CSV files stored in the `data/` directory:
 - **grades.csv**: Assignment scores and grades
 - **attendance.csv**: Daily attendance records
 - **behavior.csv**: Behavior incidents (positive and negative)
+
+### Simulated Dataset (New)
+
+The project now includes a richer simulated package in `data/sim_data/` with:
+
+- `teacher_assistant_simulated_data.sqlite`: SQLite database with normalized tables
+- `teacher_assistant_simulated_data_csv.zip`: CSV export archive
+- `csv_unpacked/`: extracted CSV tables (students, courses, enrollments, assignments, assessments, scores, attendance, behavior, interventions, snapshots)
+
+SQL helper files:
+
+- `data/sim_data/dashboard_analysis_queries.sql`: ad-hoc analysis queries
+- `data/sim_data/dashboard_analysis_views.sql`: reusable SQLite views (`vw_student_360`, `vw_course_risk_summary`, etc.)
+
+The app maps this simulated schema into the dashboard's existing student/grades/attendance/behavior model automatically when **Simulated Dataset** is selected.
 
 ### 📝 Excel Templates
 
@@ -102,12 +123,23 @@ Validate your data files before using the dashboard:
 python utils/data_validator.py
 ```
 
+Validate the simulated normalized dataset:
+```bash
+python utils/data_validator.py --data-source simulated
+```
+
+Validate both legacy and simulated datasets in one run:
+```bash
+python utils/data_validator.py --data-source both
+```
+
 This checks for:
 - Invalid email formats
 - Missing required fields
 - Duplicate entries
 - Incorrect date formats
 - Invalid student IDs
+- Simulated-table foreign key integrity and enum/range checks
 
 ## Customization
 

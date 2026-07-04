@@ -9,7 +9,9 @@ from utils.data_loader import (
     get_student_summary,
     calculate_student_average,
     calculate_attendance_rate,
-    count_behavior_incidents
+    count_behavior_incidents,
+    DATA_SOURCE_LEGACY,
+    DATA_SOURCE_SIMULATED,
 )
 from utils.email_generator import EmailGenerator
 
@@ -30,21 +32,20 @@ if 'email_generator' not in st.session_state:
 
 # Load data
 @st.cache_data
-def get_data():
-    """Load and cache all data."""
-    return load_all_data()
+def get_data(data_source: str):
+    """Load and cache all data for the selected source."""
+    return load_all_data(data_source)
 
 @st.cache_data
-def get_all_student_summaries():
-    """Load and cache all student summaries."""
-    students_df, _, _, _ = get_data()
+def get_all_student_summaries(data_source: str):
+    """Load and cache all student summaries for the selected source."""
+    students_df, grades_df, attendance_df, behavior_df = get_data(data_source)
+    preloaded_data = (students_df, grades_df, attendance_df, behavior_df)
     summaries = []
     for _, student in students_df.iterrows():
         student_id = student['student_id']
-        summaries.append(get_student_summary(student_id))
+        summaries.append(get_student_summary(student_id, data_source=data_source, preloaded_data=preloaded_data))
     return summaries
-
-students_df, grades_df, attendance_df, behavior_df = get_data()
 
 # Sidebar navigation
 st.sidebar.title("📚 Teacher Assistant")
@@ -57,6 +58,13 @@ page = st.sidebar.radio(
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("### Settings")
+data_source_label = st.sidebar.selectbox(
+    "Data Source",
+    ["Legacy Sample Data", "Simulated Dataset"],
+    index=1
+)
+data_source = DATA_SOURCE_SIMULATED if data_source_label == "Simulated Dataset" else DATA_SOURCE_LEGACY
+
 teacher_name = st.sidebar.text_input("Teacher Name", value="Mr./Ms. Teacher")
 teacher_email = st.sidebar.text_input("Teacher Email", value="teacher@school.edu")
 
@@ -64,13 +72,15 @@ if teacher_name != st.session_state.email_generator.teacher_name or \
    teacher_email != st.session_state.email_generator.teacher_email:
     st.session_state.email_generator = EmailGenerator(teacher_name, teacher_email)
 
+students_df, grades_df, attendance_df, behavior_df = get_data(data_source)
+
 # Main content
 if page == "Dashboard":
     st.title("📊 Teacher Assistant Dashboard")
     st.markdown("### Student Performance Overview")
     
     # Get cached summary statistics for all students
-    summary_data = get_all_student_summaries()
+    summary_data = get_all_student_summaries(data_source)
     summary_df = pd.DataFrame(summary_data)
     
     # Display key metrics
@@ -169,7 +179,7 @@ elif page == "Student Records":
     st.markdown("---")
     
     # Performance summary
-    summary = get_student_summary(student_id)
+    summary = get_student_summary(student_id, data_source=data_source)
     
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -242,7 +252,7 @@ elif page == "Email Generator":
         st.stop()
     student = student_rows.iloc[0]
     student_id = student['student_id']
-    summary = get_student_summary(student_id)
+    summary = get_student_summary(student_id, data_source=data_source)
     
     st.markdown("---")
     st.markdown(f"### Student Performance Summary: {summary['name']}")
@@ -304,7 +314,7 @@ elif page == "Batch Email Generation":
     students_needing_attention = []
     email_gen = st.session_state.email_generator
     
-    all_summaries = get_all_student_summaries()
+    all_summaries = get_all_student_summaries(data_source)
     for summary in all_summaries:
         should_send = email_gen.should_send_email(summary)
         
@@ -341,7 +351,7 @@ elif page == "Batch Email Generation":
             
             for student_info in students_needing_attention:
                 student_id = student_info['student_id']
-                summary = get_student_summary(student_id)
+                summary = get_student_summary(student_id, data_source=data_source)
                 emails = email_gen.generate_all_emails(summary)
                 
                 st.markdown(f"## {summary['name']}")

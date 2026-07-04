@@ -1,0 +1,12 @@
+table,primary_key,grain,notes
+students,student_id,one row per simulated student,Fake roster; no real student data.
+courses,course_id,one row per Algebra 1 section,Four class groups/sections.
+enrollments,enrollment_id,one row per student-course enrollment,Connects students to courses.
+assignments,assignment_id,one row per assignment definition,Assignment metadata shared across sections.
+assignment_scores,score_id,one row per student-assignment score,Missing and late flags included.
+assessments,assessment_id,one row per quiz/test definition,Assessment metadata shared across sections.
+assessment_scores,assessment_score_id,one row per student-assessment score,Quiz/test performance.
+attendance,attendance_id,one row per student per school day,Present/tardy/absent records over 45 days.
+behavior_incidents,incident_id,one row per behavior event,Sparse table; only students with incidents appear.
+interventions,intervention_id,one row per intervention action,Generated for medium/high risk students.
+grade_snapshots,snapshot_id,one row per student at week 9,Model-friendly summary/target table.

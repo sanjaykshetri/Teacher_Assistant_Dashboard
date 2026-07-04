@@ -1,0 +1,136 @@
+intervention_id,student_id,course_id,date,intervention_type,assigned_by,follow_up_date,outcome
+INT-STU2026001-01,STU2026001,ALG1-A,2026-10-21,Missing work contract,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026002-01,STU2026002,ALG1-A,2026-10-28,Parent email,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026003-01,STU2026003,ALG1-A,2026-10-28,Counselor check-in,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026005-01,STU2026005,ALG1-A,2026-10-28,Missing work contract,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026006-01,STU2026006,ALG1-A,2026-10-26,Counselor check-in,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026007-01,STU2026007,ALG1-A,2026-11-04,Parent email,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026008-01,STU2026008,ALG1-A,2026-10-29,Student conference,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026009-01,STU2026009,ALG1-A,2026-11-05,Student conference,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026010-01,STU2026010,ALG1-A,2026-11-04,Counselor check-in,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026011-01,STU2026011,ALG1-A,2026-10-21,Parent email,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026012-01,STU2026012,ALG1-A,2026-11-06,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026014-01,STU2026014,ALG1-A,2026-11-02,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026015-01,STU2026015,ALG1-A,2026-11-05,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026016-01,STU2026016,ALG1-A,2026-10-28,Parent email,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026017-01,STU2026017,ALG1-A,2026-10-30,Student conference,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026018-01,STU2026018,ALG1-A,2026-11-09,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026019-01,STU2026019,ALG1-A,2026-11-09,Missing work contract,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026020-01,STU2026020,ALG1-A,2026-10-26,Missing work contract,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026021-01,STU2026021,ALG1-A,2026-10-20,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026022-01,STU2026022,ALG1-A,2026-10-30,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026023-01,STU2026023,ALG1-A,2026-10-27,Missing work contract,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026024-01,STU2026024,ALG1-A,2026-10-21,Student conference,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026025-01,STU2026025,ALG1-A,2026-10-30,Missing work contract,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026027-01,STU2026027,ALG1-A,2026-10-29,Counselor check-in,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026028-01,STU2026028,ALG1-A,2026-11-06,Parent email,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026029-01,STU2026029,ALG1-A,2026-10-26,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026030-01,STU2026030,ALG1-A,2026-10-27,Missing work contract,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026031-01,STU2026031,ALG1-A,2026-10-30,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026032-01,STU2026032,ALG1-A,2026-10-27,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026033-01,STU2026033,ALG1-A,2026-11-02,Missing work contract,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026034-01,STU2026034,ALG1-A,2026-10-29,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026035-01,STU2026035,ALG1-A,2026-10-21,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026036-01,STU2026036,ALG1-A,2026-11-09,Student conference,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026039-01,STU2026039,ALG1-A,2026-10-29,Parent email,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026040-01,STU2026040,ALG1-A,2026-11-03,Counselor check-in,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026041-01,STU2026041,ALG1-B,2026-11-04,Parent email,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026044-01,STU2026044,ALG1-B,2026-11-02,Counselor check-in,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026045-01,STU2026045,ALG1-B,2026-11-06,Student conference,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026046-01,STU2026046,ALG1-B,2026-11-02,Parent email,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026047-01,STU2026047,ALG1-B,2026-10-29,Parent email,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026048-01,STU2026048,ALG1-B,2026-10-20,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026049-01,STU2026049,ALG1-B,2026-10-28,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026051-01,STU2026051,ALG1-B,2026-11-04,Parent email,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026052-01,STU2026052,ALG1-B,2026-11-02,Student conference,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026053-01,STU2026053,ALG1-B,2026-10-22,Parent email,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026054-01,STU2026054,ALG1-B,2026-10-20,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026056-01,STU2026056,ALG1-B,2026-10-27,Student conference,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026057-01,STU2026057,ALG1-B,2026-10-21,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026059-01,STU2026059,ALG1-B,2026-11-04,Parent email,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026060-01,STU2026060,ALG1-B,2026-11-02,Student conference,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026061-01,STU2026061,ALG1-B,2026-10-27,Missing work contract,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026062-01,STU2026062,ALG1-B,2026-10-23,Student conference,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026063-01,STU2026063,ALG1-B,2026-10-20,Parent email,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026064-01,STU2026064,ALG1-B,2026-11-04,Counselor check-in,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026065-01,STU2026065,ALG1-B,2026-10-23,Counselor check-in,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026066-01,STU2026066,ALG1-B,2026-10-30,Student conference,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026067-01,STU2026067,ALG1-B,2026-10-21,Missing work contract,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026068-01,STU2026068,ALG1-B,2026-10-20,Counselor check-in,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026069-01,STU2026069,ALG1-B,2026-10-21,Counselor check-in,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026070-01,STU2026070,ALG1-B,2026-11-02,Counselor check-in,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026071-01,STU2026071,ALG1-B,2026-11-02,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026072-01,STU2026072,ALG1-B,2026-10-22,Student conference,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026074-01,STU2026074,ALG1-B,2026-10-22,Parent email,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026075-01,STU2026075,ALG1-B,2026-10-28,Parent email,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026078-01,STU2026078,ALG1-B,2026-10-26,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026080-01,STU2026080,ALG1-B,2026-10-22,Counselor check-in,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026081-01,STU2026081,ALG1-C,2026-11-06,Student conference,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026083-01,STU2026083,ALG1-C,2026-11-02,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026084-01,STU2026084,ALG1-C,2026-10-21,Missing work contract,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026085-01,STU2026085,ALG1-C,2026-10-26,Student conference,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026086-01,STU2026086,ALG1-C,2026-10-20,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026087-01,STU2026087,ALG1-C,2026-11-03,Missing work contract,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026088-01,STU2026088,ALG1-C,2026-11-02,Student conference,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026089-01,STU2026089,ALG1-C,2026-11-06,Missing work contract,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026090-01,STU2026090,ALG1-C,2026-10-22,Missing work contract,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026092-01,STU2026092,ALG1-C,2026-11-03,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026093-01,STU2026093,ALG1-C,2026-10-28,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026094-01,STU2026094,ALG1-C,2026-10-20,Counselor check-in,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026097-01,STU2026097,ALG1-C,2026-11-03,Parent email,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026098-01,STU2026098,ALG1-C,2026-11-05,Counselor check-in,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026099-01,STU2026099,ALG1-C,2026-11-06,Student conference,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026100-01,STU2026100,ALG1-C,2026-11-05,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026101-01,STU2026101,ALG1-C,2026-11-02,Counselor check-in,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026102-01,STU2026102,ALG1-C,2026-10-22,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026103-01,STU2026103,ALG1-C,2026-11-02,Student conference,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026104-01,STU2026104,ALG1-C,2026-11-06,Parent email,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026106-01,STU2026106,ALG1-C,2026-11-02,Parent email,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026107-01,STU2026107,ALG1-C,2026-10-21,Missing work contract,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026108-01,STU2026108,ALG1-C,2026-10-27,Missing work contract,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026109-01,STU2026109,ALG1-C,2026-11-02,Counselor check-in,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026110-01,STU2026110,ALG1-C,2026-10-21,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026111-01,STU2026111,ALG1-C,2026-10-21,Missing work contract,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026112-01,STU2026112,ALG1-C,2026-11-05,Missing work contract,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026113-01,STU2026113,ALG1-C,2026-11-06,Parent email,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026114-01,STU2026114,ALG1-C,2026-10-28,Missing work contract,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026115-01,STU2026115,ALG1-C,2026-10-21,Student conference,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026116-01,STU2026116,ALG1-C,2026-10-27,Parent email,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026117-01,STU2026117,ALG1-C,2026-11-02,Parent email,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026118-01,STU2026118,ALG1-C,2026-11-09,Student conference,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026119-01,STU2026119,ALG1-C,2026-10-30,Missing work contract,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026120-01,STU2026120,ALG1-C,2026-10-21,Student conference,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026122-01,STU2026122,ALG1-D,2026-11-05,Missing work contract,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026123-01,STU2026123,ALG1-D,2026-11-05,Parent email,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026124-01,STU2026124,ALG1-D,2026-11-03,Counselor check-in,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026125-01,STU2026125,ALG1-D,2026-11-03,Student conference,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026127-01,STU2026127,ALG1-D,2026-10-27,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026128-01,STU2026128,ALG1-D,2026-10-26,Parent email,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026129-01,STU2026129,ALG1-D,2026-11-06,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026130-01,STU2026130,ALG1-D,2026-10-28,Missing work contract,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026131-01,STU2026131,ALG1-D,2026-10-20,Counselor check-in,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026132-01,STU2026132,ALG1-D,2026-11-06,Parent email,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026133-01,STU2026133,ALG1-D,2026-10-26,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026134-01,STU2026134,ALG1-D,2026-11-02,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026135-01,STU2026135,ALG1-D,2026-11-04,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026138-01,STU2026138,ALG1-D,2026-10-21,Parent email,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026139-01,STU2026139,ALG1-D,2026-10-27,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026140-01,STU2026140,ALG1-D,2026-11-04,Parent email,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026141-01,STU2026141,ALG1-D,2026-10-23,Student conference,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026142-01,STU2026142,ALG1-D,2026-10-23,Missing work contract,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026143-01,STU2026143,ALG1-D,2026-11-02,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026144-01,STU2026144,ALG1-D,2026-10-22,Parent email,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026145-01,STU2026145,ALG1-D,2026-10-26,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026146-01,STU2026146,ALG1-D,2026-10-30,Parent email,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026147-01,STU2026147,ALG1-D,2026-10-28,Student conference,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026148-01,STU2026148,ALG1-D,2026-11-09,Counselor check-in,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026149-01,STU2026149,ALG1-D,2026-11-06,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026150-01,STU2026150,ALG1-D,2026-11-03,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026151-01,STU2026151,ALG1-D,2026-10-20,Counselor check-in,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026153-01,STU2026153,ALG1-D,2026-10-30,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026154-01,STU2026154,ALG1-D,2026-11-02,Missing work contract,Sanjay Chhetri,2026-11-09,Pending
+INT-STU2026155-01,STU2026155,ALG1-D,2026-11-05,Student conference,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026156-01,STU2026156,ALG1-D,2026-10-21,Lunch tutoring invite,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026157-01,STU2026157,ALG1-D,2026-11-09,Counselor check-in,Sanjay Chhetri,2026-11-09,Improved
+INT-STU2026158-01,STU2026158,ALG1-D,2026-10-27,Parent email,Sanjay Chhetri,2026-11-09,No change
+INT-STU2026159-01,STU2026159,ALG1-D,2026-10-20,Counselor check-in,Sanjay Chhetri,2026-11-09,Pending
