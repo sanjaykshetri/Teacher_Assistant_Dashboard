@@ -141,6 +141,76 @@ This checks for:
 - Invalid student IDs
 - Simulated-table foreign key integrity and enum/range checks
 
+## ML Results and Reporting
+
+The technical report notebook demonstrates a reproducible machine learning workflow for grade prediction and intervention planning:
+
+- Baseline comparison: mean predictor vs Random Forest regressor
+- Test-set metrics: MAE, RMSE, and R2 for both models
+- 5-fold cross-validation summary for model stability
+- Uncertainty-aware risk screening using lower/upper prediction bounds
+- Subgroup monitoring for grade-level, attendance, and behavior buckets
+
+Primary report notebook:
+
+- `Teacher_Assistant_Dashboard_Technical_Report.ipynb`
+
+### Reproducibility
+
+The report workflow uses fixed seeds and explicit model version tags so outputs are consistent across reruns.
+
+- Random seed is fixed in the ML data generation and training split
+- Random Forest model uses the same seed for deterministic behavior
+- Run metadata includes model version and threshold settings
+
+### Exported Artifacts
+
+Operational run outputs are exported to:
+
+- `data/output/`
+
+Each run writes a timestamped recommendations file, for example:
+
+- `data/output/intervention_recommendations_<timestamp>.csv`
+
+Export includes:
+
+- Student predictions and intervention labels
+- Prediction uncertainty fields (`pred_lower_95`, `pred_upper_95`, `prediction_std`)
+- Run metadata (`run_timestamp_utc`, `model_version`, `random_seed`, `threshold_parent_outreach`, `data_source`)
+
+### Metric Interpretation Quick Guide
+
+- **Precision**: Of flagged students, how many were truly at risk
+- **Recall**: Of truly at-risk students, how many were correctly flagged
+- **F1 Score**: Harmonic balance of precision and recall
+- **Confusion Matrix [TN FP; FN TP]**: Count breakdown of correct/incorrect decisions
+- **Subgroup Flag Rate**: Share of students flagged inside each subgroup; large gaps warrant threshold review
+
+## Run Report Workflow
+
+Use this sequence to run data checks, app workflow, and technical report outputs end to end:
+
+```bash
+# 1) Install dependencies
+pip install -r requirements.txt
+
+# 2) Validate both legacy and simulated datasets
+python utils/data_validator.py --data-source both
+
+# 3) Launch dashboard
+streamlit run app.py
+
+# 4) Open and run the technical report notebook
+# Teacher_Assistant_Dashboard_Technical_Report.ipynb
+```
+
+Notebook environment notes:
+
+- Use the project Python environment (recommended `.venv`)
+- Ensure notebook kernel has required packages from `requirements.txt`
+- Run report cells in order for consistent kernel state
+
 ## Customization
 
 ### Teacher Information
@@ -162,12 +232,12 @@ Email templates can be customized in the `EmailGenerator` class methods:
 
 ## Sample Data
 
-The repository includes sample data for 10 students with various performance levels:
-- High performers (90%+ average)
-- Average performers (70-89%)
-- At-risk students (below 70%)
-- Students with attendance issues
-- Students with behavior concerns
+The repository now includes two dataset tracks:
+
+- **Legacy sample CSVs** under `data/` for quick dashboard demos
+- **Simulated normalized package** under `data/sim_data/` for richer analytics, SQL views, validation checks, and report workflows
+
+The simulated package contains substantially larger, multi-table records than the original lightweight sample set.
 
 ## Future Enhancements
 
